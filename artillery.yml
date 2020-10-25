@@ -1,0 +1,19 @@
+
+config:
+    target: "https://rosser.cs.grinnell.edu:4433"
+    http:
+        timeout: 10
+        tls:
+            rejectUnauthorized: false
+    phases:
+        - arrivalRate: 10
+          duration: 5
+    payload:
+        path: "paths.csv"
+        fields:
+            - "path"
+
+scenarios:
+    - flow:
+        - get:
+            url: "{{ path }}"
