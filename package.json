@@ -1,0 +1,24 @@
+
+{
+  "name": "blockchain-server",
+  "version": "1.0.0",
+  "description": "Using coding and algorithms to blockchain the HTML.",
+  "dependencies": {
+    "artillery": "^1.6.0-15",
+    "bower": "^1.8.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "artillery": "artillery"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexanderOtavka/blockchain-server.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/AlexanderOtavka/blockchain-server/issues"
+  },
+  "homepage": "https://github.com/AlexanderOtavka/blockchain-server#readme"
+}
